@@ -34,7 +34,7 @@ class Clock(tk.Frame):
                 self.second["length"] - 15) * math.sin(math.radians(90 - measure * 6))
             measureY2 = self.second["length"] * math.sin(math.radians(90 - measure * 6))
 
-            measureX1 = self.origin["x"] + measureX1 #座標を変換
+            measureX1 = self.origin["x"] + measureX1 # 座標を変換
             measureX2 = self.origin["x"] + measureX2
             measureY1 = self.canvasHeight - (self.origin["y"] + measureY1)
             measureY2 = self.canvasHeight - (self.origin["y"] + measureY2)
